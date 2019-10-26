@@ -1,39 +1,47 @@
+header {
+    /* position: fixed; */
+    left: 10px;
+    right: 10px;
+}
+
 .navbar-brand img{
-    height: 90px
+    height: 90px;
+    margin: 20px;
 }
 
 .nav-a {
-    font-family: "BPG Nino Mtavruli Bold", sans-serif;
-    font-size: 25px;
-    color: red;
+    font-family: "ALK Rex Bold", sans-serif;
+    font-size: 27px;
+    color: aliceblue;
 }
 
 h3 {
-    font-family: "BPG Nino Mtavruli Bold", sans-serif;
-    margin-top: 5px;
-    color: aliceblue
+    font-family: "ALK Rex Bold", sans-serif;
+    margin-bottom: 10px;
+    background-color: coral;
+    color: aliceblue;
+    text-align: center;
 }
+
+.bg-2 h1 {
+    font-family: "ALK Rex Bold", sans-serif;
+    color: coral;
+    text-align: center;    
+    margin-top: 10px;
+}
+
+
 
 p {
-    font-family: "BPG Nino Medium", sans-serif;
+    font-family: "ALK Rex Bold", sans-serif;
     color: aliceblue
-}
-
-.active {
-    color: red
-}
-
-
-body, html {
-  height: 100%;
-  margin: 0;
 }
 
 .bg {
   /* The image used */
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://static.dezeen.com/uploads/2017/08/clifton-house-project-architecture_dezeen_hero-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://static.dezeen.com/uploads/2017/08/clifton-house-project-architecture_dezeen_hero-1.jpg"); */
 
-  /* Full height */
+  /* Full height */ 
   height: 100%; 
 
   /* Center and scale the image nicely */
@@ -43,18 +51,30 @@ body, html {
 }
 
 
+
 .services {
-    margin: 120px auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
     text-align: center;
-    font-family: "BPG Nino Mtavruli Bold", sans-serif;
-    size: 100px;
-    color: aliceblue;
-    display: block;
+    font-family: "ALK Rex Bold", sans-serif;
+    color: white;
+    /* display: block; */
     content: '';
     /* width: 150px; */
-    height: 3px;
 }
 
+.services:hover {
+    color: coral;
+}
+
+.services:after {
+    content: "";
+    display: inline-block;
+    background-color: white;
+    width: 170px;
+    height: 2px;
+    margin: 0px 0px;
+}
 
 
 .icon {
@@ -63,6 +83,81 @@ body, html {
 }
 
 .col-lg-4:hover {
-    box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
-    cursor: pointer
+    box-shadow: 5px 7px 9px -3px coral;
+    cursor: pointer;
 }
+
+
+.row-1 {
+    bottom: 40px;
+
+}
+
+
+.place {
+    height: 20px;
+}
+
+.bg-2 {
+    background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
+    height: 100%;
+}
+
+
+
+.bg-3 {
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.bg-4 {
+    height: 80px;
+    background: coral;
+    opacity: 0.8;
+    position: relative;
+}
+
+/* .text{
+    position: absolute;
+    margin: -50%;
+} */
+
+.wrapper {
+    /* margin-top: 30px;; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social-li {
+    color: white;
+}
+
+.social-li::after {
+    content: "";
+    display: inline-block;
+    background-color: white;
+    width: 2px;
+    height: 15px;
+    margin: 0px 15px;
+}
+
+.social-li:last-child::after{
+    display: none;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+

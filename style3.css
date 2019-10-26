@@ -1,0 +1,99 @@
+header {
+    /* position: fixed; */
+    left: 10px;
+    right: 10px;
+}
+
+.navbar-brand img{
+    height: 90px;
+    margin: 20px;
+}
+
+
+.nav-a {
+    font-family: "ALK Rex Bold", sans-serif;
+    font-size: 27px;
+    color: aliceblue;
+}
+
+
+
+.bg {
+    background-image: url("https://wallpapercave.com/wp/wp3589868.jpg"); 
+    height: 100%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.logo {
+    background-color: grey;
+}
+
+
+.employee {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.employee img{
+    height: 300px;
+}
+
+.person {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+p {
+    font-family: "ALK Rex Bold", sans-serif;
+    color: black
+}
+
+
+.bg-4 {
+    height: 80px;
+    background: coral;
+    opacity: 0.8;
+    position: relative;
+}
+
+
+.wrapper {
+    /* margin-top: 30px;; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social-li {
+    color: white;
+}
+
+.social-li::after {
+    content: "";
+    display: inline-block;
+    background-color: white;
+    width: 2px;
+    height: 15px;
+    margin: 0px 15px;
+}
+
+.social-li:last-child::after{
+    display: none;
+}
+
+.fa-youtube {
+    color: red;
+}
